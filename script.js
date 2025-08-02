@@ -30,7 +30,7 @@ function gettemp(data){
     part1.classList.add('blocker')
     part2.classList.remove('blocker')
     console.log(data)
-    tempresult.innerHTML=`${data.main.temp} C'`
+    tempresult.innerHTML=`${data.main.temp} °C`
     weathresult.innerHTML=data.weather[0].main
     conresult.innerHTML=`<i class="fa-solid fa-location-dot"></i> ${data.sys.country}`
     document.querySelector('img').src=`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
