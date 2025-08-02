@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(125, 193, 214);
+}
+.con{
+    min-width: 300px;
+    height: auto;
+    border: 1px solid rgb(197, 183, 183);
+    border-radius: 10px;
+  
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+   
+    
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+   
+}
+
+h3{
+    color: blue;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.confirm{
+    background: rgb(167, 167, 241);
+    padding: 10px;
+    color: white;
+    border: 1px solid rgb(212, 209, 209);
+    border-radius: 5px ;
+    margin: 10px 20px 5px 20px;
+}
+.error{
+    background: red !important;
+    color: white;
+}
+.correct{
+    background: rgb(155, 199, 90) !important;
+    color: white;
+}
+input{
+     padding: 10px;
+     border: none;
+     outline: none;
+     text-align: center;
+     border-radius: 5px ;
+     margin: 0px 20px 5px 20px;
+     background-color: rgb(196, 183, 183);
+}
+.sep{
+    height: 1px;
+    width: 100%;
+    background: rgb(201, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+}
+.sep::after{
+    content: "or";
+    font-weight: lighter;
+    background: white;
+    padding: 0px 15px;
+}
+button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgb(138, 138, 204);
+    color: whitesmoke;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 20px;
+}
+
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+img{
+    
+}
+.part2 h2{
+    font-size: 40px;
+}
+.part2 p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.blocker{
+    display: none !important;
+}
+.part3{
+    max-width: 265px;
+    background: rgba(214, 30, 30, 0.623);
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid rgb(212, 209, 209);
+    border-radius: 5px ;
+    margin: 10px 20px 25px 20px;
+
+}
+.part3:first-child{
+   
+}
+.fa-solid:hover{
+   
+    scale: 1.2;
+}
+.confirm{
+    max-width: 260px;
+}
+
