@@ -5,7 +5,7 @@ let conresult=document.querySelector('#conresult');
 let part1=document.querySelector('.part1')
 let part2=document.querySelector('.part2')
 let confirm=document.querySelector('.confirm')
-let arrow=document.querySelector('.fa-solid')
+let arrow=document.querySelector('.con h3 i')
 let part3=document.querySelector('.part3')
 let key=`b83fe0240b1ebd582d0da10cf9a1fe70`
 let city;
