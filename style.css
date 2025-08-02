@@ -127,6 +127,9 @@ img{
 .part3:first-child{
    
 }
+.con h3 i{
+    cursor:pointer;
+}
 .con h3 i:hover{
    
     scale: 1.2;
